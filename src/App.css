@@ -1,0 +1,121 @@
+.imagen {
+    width: 300px;
+    height: 350px;
+    margin-top: 40px;
+    
+  }
+
+  .titulo {
+    text-align: center;
+  }
+  .texto {
+    font-size: 35px;
+  }
+  
+  .button {
+    position: absolute;
+    padding: 10px;
+    margin-top: 40px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+
+  }
+
+  .footer {
+
+    color: #BDBDBD;
+    margin-top: 150px;
+    text-align: center;
+  }
+  
+  .ancla {
+    text-decoration: none;
+    color: white;
+  }
+
+  @media only screen and (min-width: 768px) {
+/* Estilos para pantallas grandes */
+
+
+
+
+
+.imagen {
+position: absolute;
+left: 5.35%;
+right: 57.21%;
+top: 40.54%;
+bottom: 34.03%;
+
+}
+
+.button {
+display: block;
+position: absolute;
+width: 216px;
+height: 68px;
+left: 740px;
+top: 500px;
+}
+
+footer {
+margin-top: 500px;
+}
+
+
+
+
+
+
+}
+
+@media only screen and (max-width: 767px) {
+/* Estilos para pantallas pequeñas */
+.imagen {
+left: 5.35%;
+right: 57.21%;
+top: 24.54%;
+bottom: 34.03%;
+display: block;
+margin: auto;
+
+}
+.texto {
+width: 100%;
+margin-top: 20px;
+}
+}
+p, h2 {
+text-align: center;
+}
+
+.ancla {
+color: black;
+}
+@media screen and (min-width: 750px) and (max-width: 1200px) {
+/* Tus estilos para pantallas de 750px hasta 1200px van aquí */
+
+.texto {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+text-align: right;
+}
+
+.button {
+display: block;
+margin: 0 auto 0 0;
+
+}
+
+.imagen {
+margin-top: 100px;
+}
+}
